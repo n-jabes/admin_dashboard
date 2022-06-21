@@ -1,4 +1,16 @@
 import"./sidebar.scss"
+import DashboardIcon from '@mui/icons-material/Dashboard';
+import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
+import StoreIcon from '@mui/icons-material/Store';
+import CreditCardIcon from '@mui/icons-material/CreditCard';
+import LocalShippingIcon from '@mui/icons-material/LocalShipping';
+import SettingsApplicationsIcon from '@mui/icons-material/SettingsApplications';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import ExitToAppIcon from '@mui/icons-material/ExitToApp';
+import PsychologyOutlinedIcon from '@mui/icons-material/PsychologyOutlined';
+import InsertChartIcon from '@mui/icons-material/InsertChart';
+import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
+
 
 const Sidebar = () => {
   return (
@@ -6,19 +18,52 @@ const Sidebar = () => {
       <div className="top">
         <span className="logo">NshutiJabes</span>
       </div>
+      <hr />
       <div className="center">
         <ul>
           <li>
+            <DashboardIcon className="icon"/> 
             <span>Dashboard</span>
           </li>
           <li>
-            <span>Dashboard</span>
+            <PersonOutlineIcon className="icon"/>
+            <span>Users</span>
           </li>
           <li>
-            <span>Dashboard</span>
+            <StoreIcon className="icon"/>
+            <span>Products</span>
           </li>
           <li>
-            <span>Dashboard</span>
+            <CreditCardIcon className="icon"/>
+            <span>Orders</span>
+          </li>
+          <li>
+            <LocalShippingIcon className="icon"/>
+            <span>Delivery</span>
+          </li>
+          <li>
+            <InsertChartIcon className="icon"/>
+            <span>Stats</span>
+          </li>
+          <li>
+            <NotificationsNoneIcon className="icon"/>
+            <span>Notifications</span>
+          </li>
+          <li>
+            <PsychologyOutlinedIcon className="icon"/>
+            <span>Logs</span>
+          </li>
+          <li>
+            <SettingsApplicationsIcon className="icon"/>
+            <span>Settings</span>
+          </li>
+          <li>
+            <AccountCircleIcon className="icon"/>
+            <span>profile</span>
+          </li>
+          <li>
+            <ExitToAppIcon className="icon"/>
+            <span>Logout</span>
           </li>
         </ul>
       </div>

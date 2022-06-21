@@ -21,10 +21,12 @@ const Sidebar = () => {
       <hr />
       <div className="center">
         <ul>
+          <p className="title">MAIN</p>
           <li>
             <DashboardIcon className="icon"/> 
             <span>Dashboard</span>
           </li>
+          <p className="title">LISTS</p>
           <li>
             <PersonOutlineIcon className="icon"/>
             <span>Users</span>
@@ -41,6 +43,7 @@ const Sidebar = () => {
             <LocalShippingIcon className="icon"/>
             <span>Delivery</span>
           </li>
+          <p className="title">USEFUL</p>
           <li>
             <InsertChartIcon className="icon"/>
             <span>Stats</span>
@@ -49,6 +52,7 @@ const Sidebar = () => {
             <NotificationsNoneIcon className="icon"/>
             <span>Notifications</span>
           </li>
+          <p className="title">SERVICE</p>
           <li>
             <PsychologyOutlinedIcon className="icon"/>
             <span>Logs</span>
@@ -57,6 +61,7 @@ const Sidebar = () => {
             <SettingsApplicationsIcon className="icon"/>
             <span>Settings</span>
           </li>
+          <p className="title">USER</p>
           <li>
             <AccountCircleIcon className="icon"/>
             <span>profile</span>
@@ -67,7 +72,11 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
-      <div className="bottom">color options</div>
+      <p className="title">THEMES</p>
+      <div className="bottom">
+        <div className="colorOption"></div>
+        <div className="colorOption"></div>
+      </div>
     </div>
   )
 }

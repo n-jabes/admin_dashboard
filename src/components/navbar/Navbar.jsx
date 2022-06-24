@@ -18,23 +18,28 @@ const Navbar = () => {
         </div>
         <div className="items">
           <div className="item">
-            <LanguageIcon/>
+            <LanguageIcon className="icon"/>
             English
           </div>
           <div className="item">
-            <DarkModeIcon/>
+            <DarkModeIcon className="icon"/>
           </div>
           <div className="item">
-            <FullscreenExitIcon/>
+            <FullscreenExitIcon className="icon"/>
           </div>
           <div className="item">
-            <NotificationsNoneOutlinedIcon/>
+            <NotificationsNoneOutlinedIcon className="icon"/>
+            <div className="counter">1</div>
           </div>
           <div className="item">
-            <ChatBubbleOutlineOutlinedIcon/>
+            <ChatBubbleOutlineOutlinedIcon className="icon"/>
+            <div className="counter">9+</div>
           </div>
           <div className="item">
-            <ListOutlinedIcon/>
+            <ListOutlinedIcon className="icon"/>
+          </div>
+          <div className="item">
+            <img src="https://play-lh.googleusercontent.com/I-Yd5tJnxw7Ks8FUhUiFr8I4kohd9phv5sRFHG_-nSX9AAD6Rcy570NBZVFJBKpepmc=w240-h480-rw" alt="" className="avatar" />
           </div>
         </div>
       </div>

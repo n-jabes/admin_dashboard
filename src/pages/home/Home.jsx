@@ -8,6 +8,7 @@ const Home = () => {
       <Sidebar />
       <div className="homeContainer">
         <Navbar />
+        home container
       </div>
     </div>
   )

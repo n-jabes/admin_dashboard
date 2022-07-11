@@ -3,4 +3,16 @@
     box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
     -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
     padding: 10px;
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: grey;
+
+        .title{
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
 }

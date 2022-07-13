@@ -15,4 +15,31 @@
             font-weight: 500;
         }
     }
+
+    .bottom{
+        padding:20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        .featuredChart{
+            height: 100px;
+            widith: 100px;
+        }
+
+        .title{
+            font-weight: 500;
+            color: gray;
+        }
+
+        .amount{
+            font-size: 30px;
+        }
+
+        .desc{
+            font-weight: 300px;
+            font-size: 12px;
+        }
+    }
 }

@@ -19,13 +19,14 @@
     .bottom{
         padding:20px;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 20px;
 
         .featuredChart{
             height: 100px;
-            widith: 100px;
+            width: 100px;
         }
 
         .title{

@@ -1,4 +1,35 @@
 .datatable{
     height: 600px;
     padding: 20px;
+
+    .cellWithImg{
+        display: flex;
+        align-items: center;
+
+        .cellImg{
+            height: 32px;
+            width: 32px;
+            border-radius: 50%;
+            margin-right: 20px;
+            object-fit: cover;
+        }
+    }
+
+    .cellWithStatus{
+        padding: 5px;
+        border-radius: 5px;
+
+        &.active{
+            color: green;
+            background: rgba(0, 128, 0, 0.05);
+        }
+        &.pending{
+            color: goldenrod;
+            background: rgba(218, 165, 32, 0.05);
+        }
+        &.passive{
+            color: crimson;
+            background: rgba(220, 20, 60, 0.05);
+        }
+    }
 }

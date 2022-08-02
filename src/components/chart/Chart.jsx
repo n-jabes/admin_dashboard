@@ -1,7 +1,7 @@
 import "./chart.scss"
 import { AreaChart, Area, XAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
-function Chart() {
+function Chart({aspect, title}) {
   const data = [
     {name: "January", Total: 1200},
     {name: "February", Total: 2100},
@@ -13,11 +13,11 @@ function Chart() {
   
   return (
     <div className="chart">
-      <div className="title">Last 6 Month (Revenue) </div>
+      <div className="title">{title}</div>
 
       {/* you can learn more about using react chart packages on recharts.org */}
 
-      <ResponsiveContainer width="100%" aspect ={2 / 1}>
+      <ResponsiveContainer width="100%" aspect ={aspect}>
         <AreaChart width={730} height={250} data={data}
           margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
           <defs>

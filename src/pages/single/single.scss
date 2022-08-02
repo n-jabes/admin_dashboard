@@ -13,8 +13,8 @@
             .left{
                 flex: 1;
                 padding: 20px;
-                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
-                box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
                 padding: 20px;
                 position: relative;
 
@@ -33,7 +33,6 @@
                 .item{
                     display: flex;
                     gap: 20px;
-
 
                     .itemImg{
                         width: 100px;
@@ -69,12 +68,11 @@
             .right{
                 flex: 2;
             }
-
-            .title{
-                font-size: 16px;
-                color: lightgray;
-                margin-bottom: 20px;
-            }
+        }
+        .title{
+            font-size: 16px;
+            color: lightgray;
+            margin-bottom: 20px;
         }
     }
 }

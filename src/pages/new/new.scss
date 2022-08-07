@@ -1,0 +1,36 @@
+.new {
+    display: flex;
+    width: 100%;
+
+    .newContainer{
+        flex: 6;
+
+        .top, 
+        .bottom{
+            display: flex;
+            box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+            padding: 20px;
+            margin: 10px 20px;
+
+            h1{
+                font-size: 20px;
+                color: lightgray;
+            }
+
+            .left{ 
+                flex: 1;
+
+                img {
+                    height: 100px;
+                    width: 100px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                } 
+
+            .right { 
+                flex: 2;
+            }
+        }
+    }
+}

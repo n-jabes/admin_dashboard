@@ -27,9 +27,48 @@
                     border-radius: 50%;
                     object-fit: cover;
                 } 
-
+            }
             .right { 
                 flex: 2;
+
+                form{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 30px;
+                    justify-content: space-around;
+
+                    .formInput{
+                        width: 40%;
+
+                        label{
+                            display: flex;
+                            gap: 10px;
+                            align-items: center;
+
+                            .icon{
+                                cursor: pointer;
+                            }
+                        }
+
+                        input{
+                            width: 100%;
+                            padding: 5px;
+                            border: none;
+                            border-bottom: 1px solid gray;
+                        }
+                    }
+
+                    button{
+                        width: 150px;
+                        padding: 10px;
+                        background-color: teal;
+                        color: white;
+                        font-weight: bold;
+                        cursor: pointer;
+                        border: none;
+                        margin-top: 10px;
+                    }
+                }
             }
         }
     }

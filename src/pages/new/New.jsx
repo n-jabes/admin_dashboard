@@ -1,4 +1,7 @@
 import "./new.scss"
+import Sidebar from "../../components/sidebar/Sidebar"
+import Navbar from "../../components/navbar/Navbar"
+import { DriveFolderUploadOutlinedIcon } from "@mui/icons-material/DriveFolderUploadOutlined"
 
 const New = () => {
   return (
@@ -15,6 +18,12 @@ const New = () => {
           </div>
           <div className="right">
             <form>
+              <div className="formInput">
+                <label htmlFor="file">
+                  Image: <DriveFolderUploadOutlinedIcon className="icon" />
+                </label>
+                <input type="file" id="file" style={{display: none}}/>
+              </div>
               <div className="formInput">
                 <label>Username</label>
                 <input type="text"  placeholder="john_doe"/>
@@ -43,6 +52,7 @@ const New = () => {
                 <label>Country</label>
                 <input type="text"  placeholder="USA"/>
               </div>
+              <button>Send</button>
             </form>
           </div>
         </div>

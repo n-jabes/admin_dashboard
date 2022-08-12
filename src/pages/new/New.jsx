@@ -43,9 +43,9 @@ const New = ({inputs, title}) => {
 
               {inputs.map((input) => (
                 <div className="formInput" key={input.id}>
-                <label>{input.label}</label>
-                <input type={input.type} placeholder={input.placeholder}/>
-              </div>
+                  <label>{input.label}</label>
+                  <input type={input.type} placeholder={input.placeholder}/>
+                </div>
               ))}
               
              

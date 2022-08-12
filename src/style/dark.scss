@@ -1,0 +1,107 @@
+.app.dark{
+    background-color: #111;
+    color: rgb(156, 156, 156);
+
+    .chartGrid{
+        stroke: rgba(228, 228, 228, 0.219);
+    }
+    
+    .table{
+        background-color: #111;
+    
+        .tableCell{
+            color: gray;
+        }
+    }
+
+    .navbar{
+        color: #999;
+        border-color: #333;
+
+        .search{
+            border-color: gray;
+        }
+    }
+
+    .sidebar{
+        background-color: #111;
+        border-color: #333;
+
+        .top{
+            .logo{
+                color: #999;
+            }
+        }
+        hr{
+            border-color: #333;
+        }
+
+        ul{
+            li{
+                &:hover{
+                    background-color: #333;
+                }
+            }
+        }
+    }
+
+    .widget{
+        box-shadow: 2px 4px 10px 1px rgba(150, 150, 150, 0.8);
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(150, 150, 150, 0.8);
+    }
+
+    .listContainer{
+        box-shadow: 2px 4px 10px 1px rgba(150, 150, 150, 0.8);
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(150, 150, 150, 0.8);
+    }
+
+    .charts{
+        .featured,
+        .chart{
+            box-shadow: 2px 4px 10px 1px rgba(150, 150, 150, 0.8);
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(150, 150, 150, 0.8);
+        }
+    }
+
+    .datatable{
+        .datagrid{
+            color: gray;
+            border: none;
+
+            .viewButton, 
+            .deleteButton,
+            .cellWithStatus{
+                color: gray;
+                border: none;
+            }
+
+            .cellWithStatus{
+                &.active{
+                    background: rgba(0, 128, 0, 0.08);
+                }
+                &.pending{
+                    background: rgba(218, 165, 32, 0.08);
+                }
+                &.passive{
+                    background: rgba(220, 20, 60, 0.1);
+                }
+            }
+        }
+    }
+
+    .newContainer{
+        .bottom,
+        .top{
+            box-shadow: 2px 4px 10px 1px rgba(150, 150, 150, 0.8);
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(150, 150, 150, 0.8);
+        }
+
+        .bottom{
+            input{
+                color: #999;
+                background: transparent;
+            }
+        }
+    }
+}
+

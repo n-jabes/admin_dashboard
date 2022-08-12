@@ -29,7 +29,7 @@ function DataTable() {
           Add New
         </Link>
       </div>
-      <DataGrid className="datatable"
+      <DataGrid className="datagrid"
         rows={userRows}
         columns={userColumns.concat(actionColumns)}
         pageSize={8}
